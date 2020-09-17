@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f545a530-6ad0-4aa6-9919-25e6f61fc5ef" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="study_source" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1gym8Qb381pdfTV6IiMAcY5nN7Q" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sungshin\PycharmProjects\study_source" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.엑셀file필요컬럼선별과대학비교">
+    <configuration name="표준교육과정_crawling" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="study_source" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/표준교육과정_crawling.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="표준교육과정all_crawling" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="study_source" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/표준교육과정all_crawling.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="엑셀file필요컬럼선별" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="study_source" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/엑셀file필요컬럼선별.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="엑셀file필요컬럼선별과대학비교" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="study_source" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/엑셀file필요컬럼선별과대학비교.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="joonggonara_crawling" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="study_source" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../basic_source" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../basic_source/joonggonara_crawling.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.엑셀file필요컬럼선별과대학비교" />
+        <item itemvalue="Python.엑셀file필요컬럼선별" />
+        <item itemvalue="Python.표준교육과정all_crawling" />
+        <item itemvalue="Python.표준교육과정_crawling" />
+        <item itemvalue="Python.joonggonara_crawling" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f545a530-6ad0-4aa6-9919-25e6f61fc5ef" name="Default Changelist" comment="" />
+      <created>1599095046303</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599095046303</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1600068648816">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1600068648816" />
+    <state width="929" height="279" key="GridCell.Tab.0.bottom" timestamp="1600333810688">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="929" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1600333810688" />
+    <state width="929" height="279" key="GridCell.Tab.0.center" timestamp="1600333810688">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="929" height="279" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1600333810688" />
+    <state width="929" height="279" key="GridCell.Tab.0.left" timestamp="1600333810688">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="929" height="279" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1600333810688" />
+    <state width="929" height="279" key="GridCell.Tab.0.right" timestamp="1600333810688">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="929" height="279" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1600333810688" />
+    <state width="929" height="344" key="GridCell.Tab.1.bottom" timestamp="1600333800064">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="929" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1600333800064" />
+    <state width="929" height="344" key="GridCell.Tab.1.center" timestamp="1600333800063">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="929" height="344" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1600333800063" />
+    <state width="929" height="344" key="GridCell.Tab.1.left" timestamp="1600333800063">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="929" height="344" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1600333800063" />
+    <state width="929" height="344" key="GridCell.Tab.1.right" timestamp="1600333800064">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="929" height="344" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1600333800064" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1600324653084">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1600324653084" />
+    <state width="498" height="398" key="SwitcherDM" timestamp="1599799592614">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="498" height="398" key="SwitcherDM/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1599799592614" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1600324329898">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1600324329898" />
+    <state x="1920" y="0" width="1296" height="712" maximized="true" key="dock-window-1" timestamp="1600232015881">
+      <screen x="1920" y="0" width="1280" height="984" />
+    </state>
+    <state x="1920" y="0" width="1296" height="712" maximized="true" key="dock-window-1/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1600232015881" />
+    <state x="623" y="229" key="search.everywhere.popup" timestamp="1599095211876">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="229" key="search.everywhere.popup/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1599095211876" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/표준교육과정_crawling.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/표준교육과정all_crawling.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/AppData/Local/Programs/Python/Python38-32/Lib/site-packages/pybithumb/__init__.py</url>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/엑셀file필요컬럼선별.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
