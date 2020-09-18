@@ -19,7 +19,7 @@ sheet1 = wb_new.active
 sheet2 = wb_new.create_sheet('주요대학 수입지출 현황')
 
 sheet1.title = '타대학 년도별 수입지출 현황' #시트명
-sheet1.cell(row=1, column=1).value = "결산년도"
+sheet1.cell(row=1, column=1).value = "결산년도"K
 sheet1.cell(row=1, column=2).value = "기관유형"
 sheet1.cell(row=1, column=3).value = '공시기관'
 sheet1.cell(row=1, column=4).value = '수강료수입'
@@ -46,7 +46,7 @@ sheet2.cell(row=9, column=2).value = year_dic['2019'][1]
 
 results = []
 
-def pick_uni_ins(var_year, var_uni, var_in_sum):
+def pick_uni_ins(var_year, var_uni, var_in_sum): #file의 결산년도, 공시기관을 읽어와 딕셔너리의 결산년도와 대학평교를 비교하여 처리
     for uni_key, uni_data_list in uni_dic.items(): # uni_data_list = [7, '숙명여자대학교 미래교육원', '숙명여자대학교부설평생교육원']
         for uni_data in uni_data_list: # uni_data 차례대로 7, '숙명여자대학교 미래교육원', '숙명여자대학교부설평생교육원'
             if var_uni == uni_data:
