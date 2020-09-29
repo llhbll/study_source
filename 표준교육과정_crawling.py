@@ -1,5 +1,5 @@
 from selenium import webdriver
-
+from selenium.common.exceptions import NoSuchElementException, StaleElementReferenceException
 from openpyxl import Workbook, load_workbook
 
 wb  = Workbook()
@@ -17,6 +17,11 @@ kconti_url = 'https://www.cb.or.kr/creditbank/stdPro/nStdPro1_1.do'
 driver.get(kconti_url)
 
 search_button = driver.find_element_by_css_selector("#contents > div.innerContView > div.stdProtResult > div > ul:nth-child(6) > li:nth-child(2) > a")
+#contents > div.innerContView > div.stdProtResult > div > ul:nth-child(44) > li > a
+#contents > div.innerContView > div.stdProtResult > div > ul:nth-child(46) > li:nth-child(1) > a
+#contents > div.innerContView > div.stdProtResult > div > ul:nth-child(48) > li:nth-child(2) > a
+#contents > div.innerContView > div.stdProtResult > div > ul:nth-child(50) > li > a
+#contents > div.innerContView > div.stdProtResult > div > ul:nth-child(52) > li:nth-child(3) > a
 major_name = search_button.text
 search_button.click()
 
@@ -26,20 +31,21 @@ select_list = all_list.find_elements_by_css_selector('li')
 
 row = 2
 
-for item in select_list:
-    jungong_flag_s = item.find_element_by_css_selector('em').text
-    subject = item.find_element_by_css_selector('a').text
-    lecture_time = item.find_elements_by_css_selector('span')[2].text
-    practice_time = item.find_elements_by_css_selector('span')[3].text
+    for item in select_list:
+        jungong_flag_s = item.find_element_by_css_selector('em').text
+        subject = item.find_element_by_css_selector('a').text
+        lecture_time = item.find_elements_by_css_selector('span')[2].text
+        practice_time = item.find_elements_by_css_selector('span')[3].text
 
-    sheet1.cell(row=row, column=2).value = subject
-    sheet1.cell(row=row, column=3).value = jungong_flag_s
-    sheet1.cell(row=row, column=4).value = lecture_time
-    sheet1.cell(row=row, column=5).value = practice_time
+        sheet1.cell(row=row, column=1).value = major_name
+        sheet1.cell(row=row, column=2).value = subject
+        sheet1.cell(row=row, column=3).value = jungong_flag_s
+        sheet1.cell(row=row, column=4).value = lecture_time
+        sheet1.cell(row=row, column=5).value = practice_time
     row = row + 1
 
 driver.quit()
-wb.save(major_name + ".xlsx")
+wb.save("./excel_folder/" + "모든전공.xlsx")
 # row = 2
 #
 # for page in range(1, int(page_cnt) + 1):
