@@ -45,29 +45,18 @@ all_list = copy(driver.find_element_by_css_selector('#contents > div.innerContVi
 haksa_all = copy(all_list.find_elements_by_css_selector('h4')) # 모든 학사 학사명을 얻기위해 1개씩
 haksa_cnt = len(haksa_all)
 major_all = copy(all_list.find_elements_by_css_selector('ul')) # 모든 학사 비례 전공들
-major_list = {}
 
-def get_major_cnt():
-    for i in range(haksa_cnt):
-        major_html = major_all[i]
-        major_list[i] = len(major_html.find_elements_by_css_selector('li'))
+for seq in range(haksa_cnt): # 전공클릭하여 정보얻고 back 했을때 웹정보를 잊어버리기때문에 강제적으로 url 정보 할당
+    haksa_name = haksa_all[seq].text
 
-if __name__ == "__main__":
-    get_major_cnt()
-    cnt = major_list.__len__()
-    for seq in range(cnt): # 전공클릭하여 정보얻고 back 했을때 웹정보를 잊어버리기때문에 강제적으로 url 정보 할당
-        haksa_all_list = copy(driver.find_elements_by_css_selector('h4')) # 모든 학사 학사명을 얻기위해 1개씩
-        haksa_name =  haksa_all_list[seq].text
+    major_html = major_all[seq]
+    major_list = copy(major_html.find_elements_by_css_selector('li'))
+    for major_data in major_list:
+        search_button = major_data.find_element_by_css_selector('a')
+        major_name = search_button.text
+        search_button.click()
+        work(haksa_name, major_name)
 
-        for major_seq in range(major_list[seq]):
-            form = "#contents > div.innerContView > div.stdProtResult > div > ul:nth-child({}) > li:nth-child({}) > a"
-            url = form.format(str((seq+1)*2), str(major_seq+1))
-            search_button = driver.find_element_by_css_selector(url)
-            major_name = search_button.text
-            search_button.click()
+driver.quit()
 
-            work(haksa_name, major_name)
-
-    driver.quit()
-
-    wb.save("./excel_folder/" + "모든전공.xlsx")
+wb.save("./excel_folder/" + "모든전공.xlsx")
