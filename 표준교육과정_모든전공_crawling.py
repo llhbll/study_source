@@ -7,10 +7,12 @@ from copy import copy
 wb  = Workbook()
 sheet1 = wb.active
 sheet1.title = '표준교육과정 과목중심' #시트명
-sheet1.cell(row=1, column=2).value = "과목명"
-sheet1.cell(row=1, column=3).value = '전공구분'
-sheet1.cell(row=1, column=4).value = '강의시간'
-sheet1.cell(row=1, column=5).value = '실습시간'
+sheet1.cell(row=1, column=1).value = "학사명"
+sheet1.cell(row=1, column=2).value = "전공명"
+sheet1.cell(row=1, column=3).value = "과목명"
+sheet1.cell(row=1, column=4).value = '전공구분'
+sheet1.cell(row=1, column=5).value = '강의시간'
+sheet1.cell(row=1, column=6).value = '실습시간'
 
 driver = webdriver.Chrome()
 
@@ -54,12 +56,12 @@ def get_major_cnt():
 
 if __name__ == "__main__":
     get_major_cnt()
-    cnt = major_list.__len__()
+    cnt = haksa_all.__len__()
     for seq in range(cnt): # 전공클릭하여 정보얻고 back 했을때 웹정보를 잊어버리기때문에 강제적으로 url 정보 할당
         haksa_all_list = copy(driver.find_elements_by_css_selector('h4')) # 모든 학사 학사명을 얻기위해 1개씩
         haksa_name =  haksa_all_list[seq].text
 
-        for major_seq in range(major_list[seq]):
+        for major_seq in range(major_list[seq]): # 해당학사에 할당되어 있는 전공 수
             form = "#contents > div.innerContView > div.stdProtResult > div > ul:nth-child({}) > li:nth-child({}) > a"
             url = form.format(str((seq+1)*2), str(major_seq+1))
             search_button = driver.find_element_by_css_selector(url)
