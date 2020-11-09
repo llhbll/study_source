@@ -18,8 +18,6 @@ sheet1.cell(row=1, column=8).value = '지역'
 
 driver = webdriver.Chrome()
 
-input_major_name = input("전공명 입력 : ")
-
 kconti_url = 'https://www.cb.or.kr/creditbank/stdPro/nStdPro1_1.do'
 driver.get(kconti_url)
 driver.maximize_window()

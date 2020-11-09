@@ -25,7 +25,7 @@ sheet1.cell(row=1, column=12).value = '지출합계'
 
 results = []
 
-for file_name_raw in file_li0st:
+for file_name_raw in file_list:
 
     file_name = file_name_raw
     wb = load_workbook(filename=file_name, data_only=True)
